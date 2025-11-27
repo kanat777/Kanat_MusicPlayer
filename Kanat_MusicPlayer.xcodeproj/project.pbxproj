@@ -6,8 +6,23 @@
 	objectVersion = 77;
 	objects = {
 
+/* Begin PBXBuildFile section */
+		23D1D89C2ED8550600FF1135 /* track2.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 23D1D8982ED8550600FF1135 /* track2.mp3 */; };
+		23D1D89D2ED8550600FF1135 /* track3.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 23D1D8992ED8550600FF1135 /* track3.mp3 */; };
+		23D1D89E2ED8550600FF1135 /* track1.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 23D1D8972ED8550600FF1135 /* track1.mp3 */; };
+		23D1D89F2ED8550600FF1135 /* track4.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 23D1D89A2ED8550600FF1135 /* track4.mp3 */; };
+		23D1D8A02ED8550600FF1135 /* track5.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 23D1D89B2ED8550600FF1135 /* track5.mp3 */; };
+		23D1D8A52ED8882400FF1135 /* README.md in Sources */ = {isa = PBXBuildFile; fileRef = 23D1D8A42ED8881700FF1135 /* README.md */; };
+/* End PBXBuildFile section */
+
 /* Begin PBXFileReference section */
 		23D1D87F2ED8502F00FF1135 /* Kanat_MusicPlayer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Kanat_MusicPlayer.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		23D1D8972ED8550600FF1135 /* track1.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = track1.mp3; sourceTree = "<group>"; };
+		23D1D8982ED8550600FF1135 /* track2.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = track2.mp3; sourceTree = "<group>"; };
+		23D1D8992ED8550600FF1135 /* track3.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = track3.mp3; sourceTree = "<group>"; };
+		23D1D89A2ED8550600FF1135 /* track4.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = track4.mp3; sourceTree = "<group>"; };
+		23D1D89B2ED8550600FF1135 /* track5.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = track5.mp3; sourceTree = "<group>"; };
+		23D1D8A42ED8881700FF1135 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = README.md; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
@@ -45,6 +60,12 @@
 		23D1D8762ED8502F00FF1135 = {
 			isa = PBXGroup;
 			children = (
+				23D1D8A42ED8881700FF1135 /* README.md */,
+				23D1D8972ED8550600FF1135 /* track1.mp3 */,
+				23D1D8982ED8550600FF1135 /* track2.mp3 */,
+				23D1D8992ED8550600FF1135 /* track3.mp3 */,
+				23D1D89A2ED8550600FF1135 /* track4.mp3 */,
+				23D1D89B2ED8550600FF1135 /* track5.mp3 */,
 				23D1D8812ED8502F00FF1135 /* Kanat_MusicPlayer */,
 				23D1D8802ED8502F00FF1135 /* Products */,
 			);
@@ -122,6 +143,11 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				23D1D89C2ED8550600FF1135 /* track2.mp3 in Resources */,
+				23D1D89D2ED8550600FF1135 /* track3.mp3 in Resources */,
+				23D1D89E2ED8550600FF1135 /* track1.mp3 in Resources */,
+				23D1D89F2ED8550600FF1135 /* track4.mp3 in Resources */,
+				23D1D8A02ED8550600FF1135 /* track5.mp3 in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -132,6 +158,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				23D1D8A52ED8882400FF1135 /* README.md in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -152,6 +179,7 @@
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -183,6 +211,7 @@
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
